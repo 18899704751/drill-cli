@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+/** 打印存储的模块 */
+const tplObj = require(`${__dirname}/../template`)
+console.log(tplObj)

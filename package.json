@@ -1,0 +1,30 @@
+{
+  "name": "drill-cli",
+  "version": "1.0.0",
+  "description": "drill-cli",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "drill": "bin/drill",
+    "drill-add": "bin/drill-add",
+    "drill-delete": "bin/drill-delete",
+    "drill-list": "bin/drill-list",
+    "drill-init": "bin/drill-init"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[2~\u001b[2~\u001b[2~\u001b[3~\u0016https://github.com/18899704751/drill-cli.git"
+  },
+  "author": "泉",
+  "license": "ISC"
+}
