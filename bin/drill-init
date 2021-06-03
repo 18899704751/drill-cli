@@ -16,11 +16,11 @@ let templateName = program.args[0];
 let projectName = program.args[1];
 // 小小校验一下参数
 if (!tplObj[templateName]) {
-  console.log(chalk.red("\n Template does not exit! \n "));
+  console.log(chalk.red("\n 模块名称不能为空 \n "));
   return;
 }
 if (!projectName) {
-  console.log(chalk.red("\n Project should not be empty! \n "));
+  console.log(chalk.red("\n 自定义文件名不能为空 \n "));
   return;
 }
 
