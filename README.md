@@ -1,6 +1,7 @@
 # Drill-cil
 
 ### 练习-> 易简拉取模块脚手架
+**教程搭建：** https://white-wall.top/2020/06/03/simple-npm/
 
 # 安装
 
